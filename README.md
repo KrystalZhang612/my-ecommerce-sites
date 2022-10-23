@@ -59,6 +59,13 @@ Same setups for` MyEcommerceSite Admin App` and` MyEcommerceSite Developer App`.
 # Synchronous Developing Notes
 ## ***MyEcommerceSite Employee App:***
 Customize the essential containers and list views:<br/>
+[containers list views customized.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/containers%20list%20views%20customized.png)<br/>
+Create a new resource query underneath and paste PostgreSQL in.<br/> 
+To manage sales order data, create a new resource query `getSalesOrders`:
+```sql
+SELECT * from salesorder;
+```
+
 
 
 
