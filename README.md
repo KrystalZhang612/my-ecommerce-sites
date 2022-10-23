@@ -40,6 +40,11 @@ Click on the links attached above at [MyEcommerceSite Apps Overview](https://git
 [Stripe Testing Documentation](https://stripe.com/docs/terminal/references/testing)<br/>
 [SMTP Email Relay Services](https://www.smtp.com/)<br/> 
 [RESTAPIGenerator](https://retool.com/api-generator/)<br/>
+<div>
+  <img src = "https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/retool%20logo.png" title="Retool" alt ="Retool" width ="60" height = "60" />&nbsp; 
+  
+</div>
+
 
 
 
