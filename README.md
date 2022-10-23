@@ -154,6 +154,7 @@ return message
 [product details displayed when click on order ID.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/product%20details%20displayed%20when%20click%20on%20order%20ID.png)<br/>
 [MySiteLogo.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MySiteLogo.png)<br/>
 [refund order details.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/refund%20order%20details.png)<br/>
+[shipment details fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/shipment%20details%20fetched.png)<br/>
 
 
 
