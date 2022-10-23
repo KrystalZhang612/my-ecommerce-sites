@@ -108,6 +108,7 @@ SELECT * FROM product WHERE productid = ANY({{getSalesOrderDetail.data.productid
 
 
 
+# Testing Result
 
 
 
