@@ -66,7 +66,24 @@ To manage sales order data, create a new resource query `getSalesOrders`:
 SELECT * from salesorder;
 ```
 Save and run, the sales order queries ran successfully:<br/>
-
+[query ran successfully.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/query%20ran%20successfully.png)<br/>
+Retrieve sales data with `{{ getSalesOrders.data}}` in `orderTable`.<br/>
+To get employees ID, create a new resource query `getEmployees`:
+```sql 
+SELECT * from employee; {{getEmployees.data}}
+```
+Save and run, now all employees info data are fetched:<br/>
+[employees info data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/employees%20info%20data%20fetched.png)<br/>
+Create a new resource query for inventory named `getInventory`:
+```sql
+SELECT * from product;
+```
+Save and run, now all inventory data are fetched:<br/>
+[inventory data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/inventory%20data%20fetched.png)<br/>
+Replace the number of rows with:
+```JavaScript 
+{{getInventory.data.productid.length}}
+```
 
 
 
