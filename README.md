@@ -40,12 +40,14 @@ Click on the links attached above at [MyEcommerceSite Apps Overview](https://git
 [Stripe Testing Documentation](https://stripe.com/docs/terminal/references/testing)<br/>
 [SMTP Email Relay Services](https://www.smtp.com/)<br/> 
 [RESTAPIGenerator](https://retool.com/api-generator/)<br/>
+[JavaScript](https://www.javascript.com)<br/> 
 <div>
   <img src = "https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/retool%20logo.png" title="Retool" alt ="Retool" width ="60" height = "60" />&nbsp; 
   <img src ="https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/postgreSQL%20logo.png" title="PostgreSQL" alt ="PostgreSQL" width ="60" height = "60" />&nbsp; 
   <img src ="https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/stripe%20logo.png" title="Stripe" alt ="Stripe" width ="60" height = "60" />&nbsp; 
   <img src = "https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/SMTP%20logo.png" title="SMTP Email Relay Services" alt ="SMTP Email Relay Services" width ="143" height = "60" />&nbsp; 
   <img src ="https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/rest%20api%20generator%20logo.png" title="Rest API Generator" alt ="Rest APU Generator" width ="60" height = "60" />&nbsp; 
+  <img src ="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt ="JavaScript" width ="60" height = "60" />&nbsp; 
   
   
   
