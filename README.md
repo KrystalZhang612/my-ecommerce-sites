@@ -32,6 +32,8 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 # Compatibility
 `Safari`, `Google Chrome`, `Firefox`, `Microsoft Edge`, `Opera`
 # Method to Run & Test the Project Locally
+Click on the links attached above at [MyEcommerceSite Apps Overview]() to test 3 Apps Demos.  
+
 
 
 
