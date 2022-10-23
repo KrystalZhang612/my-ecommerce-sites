@@ -258,22 +258,10 @@ SELECT * from salesorder
 Generate new sales_orders API from Rest API tools website on Retool. <br/> 
 The URLs of all actions can be copied:<br/>
 [urls of actions can be copied.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/urls%20of%20actions%20can%20be%20copied.png)<br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Follow the same steps above to get Customers and Employees data:<br/>
+[Developer Portal sales order final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developer%20portal%20salesorders%20final%20look%20.png)<br/> 
+[Developer Portal customers final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developer%20portal%20customers%20final%20look.png)<br/> 
+[Developer Portal employees final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developers%20portal%20employees%20final%20look.png)<br/> 
 
 # Testing Result
 [containers list views customized.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/containers%20list%20views%20customized.png)<br/>
@@ -299,6 +287,9 @@ The URLs of all actions can be copied:<br/>
 [revenue tracker final look-1.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/revenue%20tracker%20final%20look-1.png)<br/> 
 [revenue tracker final look-2.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/revenue%20tracker%20final%20look-2.png)<br/>
 [urls of actions can be copied.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/urls%20of%20actions%20can%20be%20copied.png)<br/>
+[Developer Portal sales order final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developer%20portal%20salesorders%20final%20look%20.png)<br/> 
+[Developer Portal customers final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developer%20portal%20customers%20final%20look.png)<br/> 
+[Developer Portal employees final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developers%20portal%20employees%20final%20look.png)<br/> 
 
 
 
