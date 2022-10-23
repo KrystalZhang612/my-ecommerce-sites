@@ -51,6 +51,7 @@ Click on the links attached above at [MyEcommerceSite Apps Overview](https://git
   <img src ="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt ="JavaScript" width ="60" height = "60" />&nbsp; 
   <img src ="https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/json%20api%20logo.png" title="JSON-API" alt ="JSON-API" width ="60" height = "60" />&nbsp;    
 </div>
+
 # Prerequisites & Setups
 Create an account on ReTool, along with creating an URL name for the workspace.<br/>
 Create the App `MyEcommerceSite Employee App`. Delete the default query and table.<br/>
