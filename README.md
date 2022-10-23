@@ -29,6 +29,23 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 - Searching for orders and issuing refunds based on Stripe API integration.
 - Emailing customers with auto-generated texts with custom JavaScript as well as SMTP API. - Viewing the general analytics of the Revenue Tracker.
 - A B2B app which offers additional developer friendly functionalities, such as being able to facilitate orders made through API by displaying the endpoints.
+# Compatibility
+`Safari`, `Google Chrome`, `Firefox`, `Microsoft Edge`, `Opera`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
