@@ -82,7 +82,7 @@ SELECT * from product;
 Save and run, now all inventory data are fetched:<br/>
 [inventory data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/inventory%20data%20fetched.png)<br/>
 Replace the number of rows with:
-```JavaScript 
+```sql
 {{getInventory.data.productid.length}}
 ```
 
