@@ -38,6 +38,8 @@ Click on the links attached above at [MyEcommerceSite Apps Overview](https://git
 [Postgre SQL Database](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/postgres.sql)<br/>
 [Stripe](https://stripe.com)<br/>
 [Stripe Testing Documentation](https://stripe.com/docs/terminal/references/testing)<br/>
+[SMTP Email Relay Services](https://www.smtp.com/)<br/> 
+[RESTAPIGenerator](https://retool.com/api-generator/)<br/>
 
 
 
