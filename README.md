@@ -85,6 +85,10 @@ Replace the number of rows with:
 ```sql
 {{getInventory.data.productid.length}}
 ```
+Replace the product photo’s URL with:
+```JavaScript
+{{getInventory.data.photo[i]}}
+```
 
 
 
