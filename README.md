@@ -19,7 +19,7 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#synchronous-developing-notes)<br/>
 [Testing Result](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#testing-result)<br/>
 # Contribution
-[Author]()
+[Author](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#author)
 # Functionalities/Demo
 - `An application used by employees, an application used by managers, and an application used by developers`, all linked to one database for a small to medium-sized company.
 - Useful internal business Apps to run an e-commerce store from the backend or office-side.
