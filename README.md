@@ -71,7 +71,6 @@ Retrieve sales data with `{{ getSalesOrders.data}}` in `orderTable`.<br/>
 To get employees ID, create a new resource query `getEmployees`:
 ```sql 
 SELECT * from employee; 
-{{getEmployees.data}}
 ```
 Save and run, now all employees info data are fetched:<br/>
 [employees info data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/employees%20info%20data%20fetched.png)<br/>
@@ -82,13 +81,31 @@ SELECT * from product;
 Save and run, now all inventory data are fetched:<br/>
 [inventory data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/inventory%20data%20fetched.png)<br/>
 Replace the number of rows with:
-```sql
+```JavaScript 
 {{getInventory.data.productid.length}}
 ```
 Replace the product photo’s URL with:
 ```JavaScript
 {{getInventory.data.photo[i]}}
 ```
+Replace the product name with:
+```JavaScript 
+{{getInventory.data.productname[i]}}
+```
+Replace the price value with:
+```JavaScript 
+{getInventory.data.unitprice[i]}}
+```
+Replace the description with:
+```JavaScript
+{{ getInventory.data.productdescription[i] }}
+```
+To get products info, create a new resource query `getProduct`:
+```sql
+SELECT * FROM product WHERE productid = ANY({{getSalesOrderDetail.data.productid}})
+```
+[product details displayed when click on order ID.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/product%20details%20displayed%20when%20click%20on%20order%20ID.png)<br/>
+
 
 
 
