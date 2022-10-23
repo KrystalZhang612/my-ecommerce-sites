@@ -3,6 +3,6 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 ## MyEcommerceSite Apps Overview:
 ### MyEcommerceSite Employee App Overview: 
 ![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/My%20EcommerceSite%20Employee%20App%20Overview.png)<br/>
-[Link to MyEcommerceSite App](https://krystalzhang612.retool.com/embedded/public/767c42fc-6da4-4a3a-af09-6ef0818f9463)<br/> 
+### [Link to MyEcommerceSite App](https://krystalzhang612.retool.com/embedded/public/767c42fc-6da4-4a3a-af09-6ef0818f9463)<br/> 
 
 
