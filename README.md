@@ -65,6 +65,8 @@ To manage sales order data, create a new resource query `getSalesOrders`:
 ```sql
 SELECT * from salesorder;
 ```
+Save and run, the sales order queries ran successfully:<br/>
+
 
 
 
