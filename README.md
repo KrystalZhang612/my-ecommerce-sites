@@ -105,6 +105,44 @@ To get products info, create a new resource query `getProduct`:
 SELECT * FROM product WHERE productid = ANY({{getSalesOrderDetail.data.productid}})
 ```
 [product details displayed when click on order ID.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/product%20details%20displayed%20when%20click%20on%20order%20ID.png)<br/>
+Add customized site logo:<br/>
+[MySiteLogo.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MySiteLogo.png)<br/>
+To fetch customer data, create a new resource query `getCustomer`:
+```sql 
+SELECT * FROM customer WHERE custid = {{ OrderTable.selectedRow.data.custid}}
+```
+Create Refunds for certain customers with data from query:<br/>
+```JavaScript
+Create Refund for {{getCustomer.data.contactname}}
+```
+Get the refund order details:
+```JavaScript 
+&nbsp;
+This is for order number {{OrderTable.selectedRow.data.orderid}} made on {{new Date(OrderTable.selectedRow.data.orderdate).toDateString()}}
+```
+[refund order details.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/refund%20order%20details.png)<br/>
+Fetch to display the shipment data:<br/>
+```JavaScript 
+This order was shipped on the {{new Date(OrderTable.selectedRow.data.shippeddate).toDateString()}} to {{OrderTable.selectedRow.data.shipaddress}}
+```
+[shipment details fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/shipment%20details%20fetched.png)<br/>
+We need a JavaScript Transformer to hold the email text:
+```JavaScript 
+const message = `Dear ${ {{ getCustomer.data.contactname[0]}} },
+I am so sorry that your was ${ {{refundSelectInput.value}} },
+Please rest assured that your refund of ${ {{currency1.value}} } USD
+has been authorized and shall be with you in 1-5 business days.
+Have a wonderful rest of the day!`
+return message
+```
+
+
+
+
+
+
+
+
 
 
 
@@ -114,6 +152,10 @@ SELECT * FROM product WHERE productid = ANY({{getSalesOrderDetail.data.productid
 [employees info data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/employees%20info%20data%20fetched.png)<br/>
 [inventory data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/inventory%20data%20fetched.png)<br/>
 [product details displayed when click on order ID.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/product%20details%20displayed%20when%20click%20on%20order%20ID.png)<br/>
+[MySiteLogo.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MySiteLogo.png)<br/>
+[refund order details.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/refund%20order%20details.png)<br/>
+
+
 
 
 
