@@ -31,6 +31,7 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 - A B2B app which offers additional developer friendly functionalities, such as being able to facilitate orders made through API by displaying the endpoints.
 # Compatibility
 `Safari`, `Google Chrome`, `Firefox`, `Microsoft Edge`, `Opera`
+# Method to Run & Test the Project Locally
 
 
 
