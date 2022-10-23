@@ -13,8 +13,22 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 ![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20Developer%20App%20Overview-1.png)<br/>
 ![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20%20Developer%20App%20Overview-2.png)<br/>
 ### [Link to MyEcommerceSite Developer App](https://krystalzhang612.retool.com/embedded/public/99b23676-6fd6-4055-8b0b-62ccfd7671a8)<br/>
-
-
+# Build
+[Method to Run & Test the Project Locally]()<br/> 
+[Prerequisites & Setups]()<br/>
+[Debugging&Troubleshooting]()<br/>
+[Synchronous Developing Notes]()<br/>
+[Testing Result]()<br/>
+# Contribution
+[Author]()
+# Functionalities/Demo
+- `An application used by employees, an application used by managers, and an application used by developers`, all linked to one database for a small to medium-sized company.
+- Useful internal business Apps to run an e-commerce store from the backend or office-side.
+- The Apps will display all items in our inventory to sell, acquiring data from the database.
+- Each item for sale has an image, a description, a URL, and a unique SQ or identifier for data management that allows us to manage the purchase made by customers.
+- Searching for orders and issuing refunds based on Stripe API integration.
+- Emailing customers with auto-generated texts with custom JavaScript as well as SMTP API. - Viewing the general analytics of the Revenue Tracker.
+- A B2B app which offers additional developer friendly functionalities, such as being able to facilitate orders made through API by displaying the endpoints.
 
 
 
