@@ -14,7 +14,7 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 ![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20%20Developer%20App%20Overview-2.png)<br/>
 ### [Link to MyEcommerceSite Developer App](https://krystalzhang612.retool.com/embedded/public/99b23676-6fd6-4055-8b0b-62ccfd7671a8)<br/>
 # Build
-[Method to Run & Test the Project Locally]()<br/> 
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Prerequisites & Setups]()<br/>
 [Debugging&Troubleshooting]()<br/>
 [Synchronous Developing Notes]()<br/>
