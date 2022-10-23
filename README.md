@@ -109,6 +109,11 @@ SELECT * FROM product WHERE productid = ANY({{getSalesOrderDetail.data.productid
 
 
 # Testing Result
+[containers list views customized.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/containers%20list%20views%20customized.png)<br/>
+[query ran successfully.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/query%20ran%20successfully.png)<br/>
+[employees info data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/employees%20info%20data%20fetched.png)<br/>
+[inventory data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/inventory%20data%20fetched.png)<br/>
+[product details displayed when click on order ID.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/product%20details%20displayed%20when%20click%20on%20order%20ID.png)<br/>
 
 
 
