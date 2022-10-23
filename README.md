@@ -70,7 +70,8 @@ Save and run, the sales order queries ran successfully:<br/>
 Retrieve sales data with `{{ getSalesOrders.data}}` in `orderTable`.<br/>
 To get employees ID, create a new resource query `getEmployees`:
 ```sql 
-SELECT * from employee; {{getEmployees.data}}
+SELECT * from employee; 
+{{getEmployees.data}}
 ```
 Save and run, now all employees info data are fetched:<br/>
 [employees info data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/employees%20info%20data%20fetched.png)<br/>
