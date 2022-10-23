@@ -10,7 +10,7 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 ![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20Admin%20App%20Overview-3.png)<br/>
 ### [Link to MyEcommerceSite Admin App](https://krystalzhang612.retool.com/embedded/public/b4c28592-b3c1-4c06-86d8-a2059bb9f164)<br/>
 ### MyEcommerceSite Developer App Overview:
-![Screenshot]()<br/>
+![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20Developer%20App%20Overview-1.png)<br/>
 ![Screenshot]()<br/>
 
 
