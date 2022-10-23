@@ -17,7 +17,7 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Prerequisites & Setups](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#prerequisites--setups)<br/>
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#synchronous-developing-notes)<br/>
-[Testing Result]()<br/>
+[Testing Result](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#testing-result)<br/>
 # Contribution
 [Author]()
 # Functionalities/Demo
