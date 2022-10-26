@@ -29,6 +29,16 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 - Emailing customers with auto-generated texts with custom JavaScript as well as SMTP API. - Viewing the general analytics of the Revenue Tracker.
 - A B2B app which offers additional developer friendly functionalities, such as being able to facilitate orders made through API by displaying the endpoints.
 # Compatibility
+# Compatibility
+|   Browswers      | Supported          |
+| -------          | ------------------ |
+| Safari           | :white_check_mark: |
+| Google Chrome    | :white_check_mark: |             
+| FireFox          | :white_check_mark: |
+| Microsoft Edge   | :white_check_mark: |
+| Opera            | :white_check_mark: |
+| MetaMask         | :white_check_mark: |
+
 `Safari`, `Google Chrome`, `Firefox`, `Microsoft Edge`, `Opera`
 # Method to Run & Test the Project Locally
 ### Click on the links attached above at [MyEcommerceSite Apps Overview](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#myecommercesite-apps-overview) to test 3 Apps Demos.  
