@@ -17,12 +17,12 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 ![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20%20Developer%20App%20Overview-2.png)<br/>
 ### [Link to MyEcommerceSite Developer App](https://krystalzhang612.retool.com/embedded/public/99b23676-6fd6-4055-8b0b-62ccfd7671a8)<br/>
 # Build
-[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
-[Prerequisites & Setups](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#prerequisites--setups)<br/>
-[Synchronous Developing Notes](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#synchronous-developing-notes)<br/>
-[Testing Result](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#testing-result)<br/>
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
+[Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/README.md#prerequisites--setups)<br/>
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/README.md#synchronous-developing-notes)<br/>
+[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/README.md#testing-result)<br/>
 # Contribution
-[Author](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/README.md#author)
+[Author](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/README.md#author)
 # Functionalities/Demo
 - `An application used by employees, an application used by managers, and an application used by developers`, all linked to one database for a small to medium-sized company.
 - Useful internal business Apps to run an e-commerce store from the backend or office-side.
