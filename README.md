@@ -21,6 +21,7 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/README.md#prerequisites--setups)<br/>
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/README.md#synchronous-developing-notes)<br/>
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/README.md#testing-result)<br/>
+[Tags and Topics]() 
 # Contribution
 [Author](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/README.md#author)
 # Functionalities/Demo
@@ -303,6 +304,8 @@ Follow the same steps above to get Customers and Employees data:<br/>
 [Developer Portal customers final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developer%20portal%20customers%20final%20look.png)<br/> 
 [Developer Portal employees final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developers%20portal%20employees%20final%20look.png)<br/> 
 
+# Tags and Topics 
+javascript, ecommerce, sql, mysql, json-api, stripe-api, rest-api, postgresql, admin-dashboard, smtp, b2b, query-json, retool, javascript-transform, resource-query, managed-db. 
 
 # Author
 Krystal Zhang 
