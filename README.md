@@ -271,6 +271,35 @@ Follow the same steps above to get Customers and Employees data:<br/>
 [Developer Portal employees final look.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/developers%20portal%20employees%20final%20look.PNG)<br/> 
 
 # Testing Result
+<p align = "center">
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/containers%20list%20views%20customized.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/query%20ran%20successfully.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/employees%20info%20data%20fetched.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/inventory%20data%20fetched.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/product%20details%20displayed%20when%20click%20on%20order%20ID.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/refund%20order%20details.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/shipment%20details%20fetched.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/email%20composion%20is%20done.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/refund%20email%20auto-generated.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/smtp%20send%20email%20works.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/refund%20regarding%20order%20email%20shows.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/initial%20customization%20of%20the%20admin%20employee.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/fetched%20employee%20data.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/all%20employee's%20data%20fetched.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/update%20employee%20info%20successfully-1.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/update%20employee%20info%20successfully-2.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/samsung%20phone%20test%20product%20added.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/test%20product%20deleted.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/order%20id%20fetched.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/revenue%20tracker%20final%20look-1.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/revenue%20tracker%20final%20look-2.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/urls%20of%20actions%20can%20be%20copied.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/developer%20portal%20salesorders%20final%20look.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/developer%20portal%20customers%20final%20look.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/developers%20portal%20employees%20final%20look.PNG">&nbsp;
+</p>
+
+
 
 
 # Tags and Topics 
