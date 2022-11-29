@@ -68,27 +68,27 @@ Same setups for` MyEcommerceSite Admin App` and` MyEcommerceSite Developer App`.
 # Synchronous Developing Notes
 ## ***MyEcommerceSite Employee App:***
 Customize the essential containers and list views:<br/>
-[containers list views customized.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/containers%20list%20views%20customized.png)<br/>
+[containers list views customized.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/containers%20list%20views%20customized.PNG)<br/>
 Create a new resource query underneath and paste PostgreSQL in.<br/> 
 To manage sales order data, create a new resource query `getSalesOrders`:
 ```sql
 SELECT * from salesorder;
 ```
 Save and run, the sales order queries ran successfully:<br/>
-[query ran successfully.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/query%20ran%20successfully.png)<br/>
+[query ran successfully.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/query%20ran%20successfully.PNG)<br/>
 Retrieve sales data with `{{ getSalesOrders.data}}` in `orderTable`.<br/>
 To get employees ID, create a new resource query `getEmployees`:
 ```sql 
 SELECT * from employee; 
 ```
 Save and run, now all employees info data are fetched:<br/>
-[employees info data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/employees%20info%20data%20fetched.png)<br/>
+[employees info data fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/employees%20info%20data%20fetched.PNG)<br/>
 Create a new resource query for inventory named `getInventory`:
 ```sql
 SELECT * from product;
 ```
 Save and run, now all inventory data are fetched:<br/>
-[inventory data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/inventory%20data%20fetched.png)<br/>
+[inventory data fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/inventory%20data%20fetched.PNG)<br/>
 Replace the number of rows with:
 ```JavaScript 
 {{getInventory.data.productid.length}}
@@ -113,9 +113,7 @@ To get products info, create a new resource query `getProduct`:
 ```sql
 SELECT * FROM product WHERE productid = ANY({{getSalesOrderDetail.data.productid}})
 ```
-[product details displayed when click on order ID.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/product%20details%20displayed%20when%20click%20on%20order%20ID.png)<br/>
-Add customized site logo:<br/>
-[MySiteLogo.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MySiteLogo.png)<br/>
+[product details displayed when click on order ID.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/product%20details%20displayed%20when%20click%20on%20order%20ID.PNG)<br/>
 To fetch customer data, create a new resource query `getCustomer`:
 ```sql 
 SELECT * FROM customer WHERE custid = {{ OrderTable.selectedRow.data.custid}}
@@ -129,12 +127,12 @@ Get the refund order details:
 &nbsp;
 This is for order number {{OrderTable.selectedRow.data.orderid}} made on {{new Date(OrderTable.selectedRow.data.orderdate).toDateString()}}
 ```
-[refund order details.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/refund%20order%20details.png)<br/>
+[refund order details.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/refund%20order%20details.PNG)<br/>
 Fetch to display the shipment data:<br/>
 ```JavaScript 
 This order was shipped on the {{new Date(OrderTable.selectedRow.data.shippeddate).toDateString()}} to {{OrderTable.selectedRow.data.shipaddress}}
 ```
-[shipment details fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/shipment%20details%20fetched.png)<br/>
+[shipment details fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/shipment%20details%20fetched.PNG)<br/>
 We need a JavaScript Transformer to hold the email text:
 ```JavaScript 
 const message = `Dear ${ {{ getCustomer.data.contactname[0]}} },
@@ -145,25 +143,25 @@ Have a wonderful rest of the day!`
 return message
 ```
 Now the customized email composing session is completed: <br/>
-[email composition is done.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/email%20composion%20is%20done.png)<br/>
+[email composition is done.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/email%20composion%20is%20done.PNG)<br/>
 Obtain a fake charge ID by submitting a fake payment method on Stripe.<br/> 
 Then create a new Stripe resource on Retool with the Stripe test API key. Test Connection.<br/> 
 Create postRefund query based on Stripe resource, and enter the refunding amount:<br/>
-[refund email auto-generated.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/refund%20email%20auto-generated.png)<br/>
+[refund email auto-generated.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/refund%20email%20auto-generated.PNG)<br/>
 Configure SMTP with Microsoft Outlook since Gmaili prevents 3rd-party-access:<br/>
 https://www.saleshandy.com/smtp/outlook-smtp-settings/<br/>
 Then Authorize the outlook Protocol SMTP, add to `sendEmail` resource, add confetti effect:<br/> 
 Now SMTP POST authorization and confetti effect worked when click Send Email:<br/>
-[smtp send email works.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/smtp%20send%20email%20works.png)<br/>
+[smtp send email works.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/smtp%20send%20email%20works.PNG)<br/>
 And also a refund regarding order email shows:<br/>
-[refund regarding order email shows.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/refund%20regarding%20order%20email%20shows.png)<br/>
+[refund regarding order email shows.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/refund%20regarding%20order%20email%20shows.PNG)<br/>
 Customize the employee editing section:<br/>
-[initial customization of the admin employee.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/initial%20customization%20of%20the%20admin%20employee.png)<br/>
+[initial customization of the admin employee.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/initial%20customization%20of%20the%20admin%20employee.PNG)<br/>
 Create a new manage_db resource query `getEmployee` to fetch employee’s data:
 ```sql
 SELECT * from employee
 ```
-[fetched employee data.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/fetched%20employee%20data.png)<br/>
+[fetched employee data.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/fetched%20employee%20data.PNG)<br/>
 Get number of employees in list view:
 ```JavaScript 
 {{getEmployees.data.empid.length}}
@@ -177,7 +175,7 @@ Loop to get the first and last name of the employees:
 {{getEmployees.data.firstname[i]}} 
 {{getEmployees.data.lastname[i]}}
 ```
-[all employee’s data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/all%20employee's%20data%20fetched.png)<br/>
+[all employee’s data fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/all%20employee's%20data%20fetched.PNG)<br/>
 Create a new query `updateEmployee` to fetch the update button effect:
 ```sql
  UPDATE employee
@@ -196,8 +194,8 @@ SET firstname = {{textInput1.value}},
     WHERE empid = {{text14.value}}
 ```
 Add some trigger confetti effect on the Update button, now if change Sara to Sarah:<br/>
-[update employee info successfully-1.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/update%20employee%20info%20successfully-1.png)<br/> 
-[update employee info successfully-2.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/update%20employee%20info%20successfully-2.png)<br/> 
+[update employee info successfully-1.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/update%20employee%20info%20successfully-1.PNG)<br/> 
+[update employee info successfully-2.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/update%20employee%20info%20successfully-2.PNG)<br/> 
 Create a new query `eleteEmployee`to delete employees:
 ```sql 
 DELETE FROM employee WHERE empid= {{text14.value}}
@@ -212,13 +210,13 @@ INSERT INTO product(productid, productname, productdescription, unitprice, units
 VALUES({{numberInput2.value}}, {{textInput12.value}}, {{textArea1.value}},{{numberInput3.value}},{{currency1.value}}, {{textInput13.value}})
 ```
 Add a testing Samsung phone product to see if product adding function works:<br/>
-[samsung phone test product added.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/samsung%20phone%20test%20product%20added.png)<br/>
+[samsung phone test product added.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/samsung%20phone%20test%20product%20added.PNG)<br/>
 Create a new query `deleteProduct` to delete products in Inventory list:
 ```sql
 DELETE from product WHERE productid {{InventoryTable.selectedRow.data.productid}}
 ```
 Now delete the test product:<br/>
-[test product deleted.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/test%20product%20deleted.png)<br/>
+[test product deleted.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/test%20product%20deleted.PNG)<br/>
 ## ***Revenue Tracker:***
 Create a new `Query JSON with SQL`:
 ```sql 
@@ -226,10 +224,10 @@ SELECT * FROM {{formatDataAsArray(getOrderDetail.data)}} as detail JOIN {{format
 ON orders.orderid = detail.orderid
 ```
 Now the order id fetched:<br/> 
-[order id fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/order%20id%20fetched.png)<br/> 
+[order id fetched.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/order%20id%20fetched.PNG)<br/> 
 Use `{{joinedRevenueData.data}}` to import revenue data.<br/>
-[revenue tracker final look-1.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/revenue%20tracker%20final%20look-1.png)<br/> 
-[revenue tracker final look-2.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/revenue%20tracker%20final%20look-2.png)<br/> 
+[revenue tracker final look-1.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/revenue%20tracker%20final%20look-1.PNG)<br/> 
+[revenue tracker final look-2.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/revenue%20tracker%20final%20look-2.PNG)<br/> 
 ## ***MyEcommerceSite Developer App:***
 Map Data for sales order table:
 ```sql 
@@ -266,39 +264,14 @@ SELECT * from salesorder
 ```
 Generate new sales_orders API from Rest API tools website on Retool. <br/> 
 The URLs of all actions can be copied:<br/>
-[urls of actions can be copied.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/urls%20of%20actions%20can%20be%20copied.png)<br/>
+[urls of actions can be copied.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/urls%20of%20actions%20can%20be%20copied.PNG)<br/>
 Follow the same steps above to get Customers and Employees data:<br/>
-[Developer Portal sales order final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developer%20portal%20salesorders%20final%20look%20.png)<br/> 
-[Developer Portal customers final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developer%20portal%20customers%20final%20look.png)<br/> 
-[Developer Portal employees final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developers%20portal%20employees%20final%20look.png)<br/> 
+[Developer Portal sales order final look.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/developer%20portal%20salesorders%20final%20look.PNG)<br/> 
+[Developer Portal customers final look.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/developer%20portal%20customers%20final%20look.PNG)<br/> 
+[Developer Portal employees final look.PNG](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/developers%20portal%20employees%20final%20look.PNG)<br/> 
 
 # Testing Result
-[containers list views customized.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/containers%20list%20views%20customized.png)<br/>
-[query ran successfully.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/query%20ran%20successfully.png)<br/>
-[employees info data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/employees%20info%20data%20fetched.png)<br/>
-[inventory data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/inventory%20data%20fetched.png)<br/>
-[product details displayed when click on order ID.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/product%20details%20displayed%20when%20click%20on%20order%20ID.png)<br/>
-[MySiteLogo.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MySiteLogo.png)<br/>
-[refund order details.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/refund%20order%20details.png)<br/>
-[shipment details fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/shipment%20details%20fetched.png)<br/>
-[email composition is done.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/email%20composion%20is%20done.png)<br/>
-[refund email auto-generated.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/refund%20email%20auto-generated.png)<br/>
-[smtp send email works.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/smtp%20send%20email%20works.png)<br/>
-[refund regarding order email shows.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/refund%20regarding%20order%20email%20shows.png)<br/>
-[initial customization of the admin employee.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/initial%20customization%20of%20the%20admin%20employee.png)<br/>
-[fetched employee data.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/fetched%20employee%20data.png)<br/>
-[all employee’s data fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/all%20employee's%20data%20fetched.png)<br/>
-[update employee info successfully-1.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/update%20employee%20info%20successfully-1.png)<br/> 
-[update employee info successfully-2.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/update%20employee%20info%20successfully-2.png)<br/> 
-[samsung phone test product added.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/samsung%20phone%20test%20product%20added.png)<br/>
-[test product deleted.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/test%20product%20deleted.png)<br/>
-[order id fetched.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/order%20id%20fetched.png)<br/> 
-[revenue tracker final look-1.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/revenue%20tracker%20final%20look-1.png)<br/> 
-[revenue tracker final look-2.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/revenue%20tracker%20final%20look-2.png)<br/>
-[urls of actions can be copied.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/urls%20of%20actions%20can%20be%20copied.png)<br/>
-[Developer Portal sales order final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developer%20portal%20salesorders%20final%20look%20.png)<br/> 
-[Developer Portal customers final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developer%20portal%20customers%20final%20look.png)<br/> 
-[Developer Portal employees final look.PNG](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/developers%20portal%20employees%20final%20look.png)<br/> 
+
 
 # Tags and Topics 
 javascript, ecommerce, sql, mysql, json-api, stripe-api, rest-api, postgresql, admin-dashboard, smtp, b2b, query-json, retool, javascript-transform, resource-query, managed-db. 
