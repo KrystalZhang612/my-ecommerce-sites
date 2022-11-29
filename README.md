@@ -5,16 +5,16 @@ An Ecommerce site which contains three SaaS internal business tools: MyEcommerce
 ### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, will be subjected to copyright violation with sebsequent potential legal concerns.***
 ## MyEcommerceSite Apps Overview:
 ### MyEcommerceSite Employee App Overview: 
-![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/My%20EcommerceSite%20Employee%20App%20Overview.png)<br/>
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/My%20EcommerceSite%20Employee%20App%20Overview.PNG)<br/>
 ### [Link to MyEcommerceSite Employee App](https://krystalzhang612.retool.com/embedded/public/767c42fc-6da4-4a3a-af09-6ef0818f9463)<br/> 
 ### MyEcommerceSite Admin App Overview: 
-![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20Admin%20App%20Overview-1.png)<br/>
-![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20Admin%20App%20Overview-2.png)<br/>
-![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20Admin%20App%20Overview-3.png)<br/>
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/MyEcommerceSite%20Admin%20App%20Overview-1.PNG)<br/>
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/MyEcommerceSite%20Admin%20App%20Overview-2.PNG)<br/>
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/MyEcommerceSite%20Admin%20App%20Overview-3.PNG)<br/>
 ### [Link to MyEcommerceSite Admin App](https://krystalzhang612.retool.com/embedded/public/b4c28592-b3c1-4c06-86d8-a2059bb9f164)<br/>
 ### MyEcommerceSite Developer App Overview:
-![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20Developer%20App%20Overview-1.png)<br/>
-![Screenshot](https://github.com/KrystalZhang612/MyEcommerceSite-Apps/blob/main/MyEcommerceSite%20%20Developer%20App%20Overview-2.png)<br/>
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/MyEcommerceSite%20Developer%20App%20Overview-1.PNG)<br/>
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/testing-result-MyEcommerceSite%20Apps/MyEcommerceSite%20%20Developer%20App%20Overview-2.PNG)<br/>
 ### [Link to MyEcommerceSite Developer App](https://krystalzhang612.retool.com/embedded/public/99b23676-6fd6-4055-8b0b-62ccfd7671a8)<br/>
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-MyEcommerceSite-Apps/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
